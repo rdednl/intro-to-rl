@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,twoside,openany]{report}
+
+\usepackage[dvips]{graphicx}
+\usepackage{tabularx}
+\usepackage{subfigure}
+\usepackage{afterpage}
+\usepackage{amsmath,amssymb}            
+\usepackage{rotating}  
+\usepackage{fancyhdr}  
+\usepackage[scriptsize]{caption} 
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\setlength{\oddsidemargin} {2. cm}
+\setlength{\evensidemargin} {2. cm}
+\addtolength{\oddsidemargin} {-0.4 cm}
+\addtolength{\evensidemargin} {-0.4 cm}
+\linespread{1.4}
+
+\pagestyle{plain}
+
+\begin{document}
+\include{frontpage}
+
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\include{chapter6}
+
+% ---- Bibliography ----
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{acm} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\nocite{*}
+\bibliography{bibliography}
+
+\end{document}
