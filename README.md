@@ -12,4 +12,4 @@ Currently, the repo hosts the final report of the semester project which came up
 
 - [Sutton and Barto, Reinforcement Learning: An introduction.](http://incompleteideas.net/sutton/book/the-book.html)
 
-- [Csaba Szepesv´ari, Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/RLBook.html)
+- [Csaba Szepesvári, Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/RLBook.html)
