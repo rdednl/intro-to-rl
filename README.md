@@ -1,4 +1,4 @@
-# universe-starter-agent
+# Introduction to reinforcement learning and openAI Gym environments
 
 ## Preface
 
